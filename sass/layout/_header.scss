@@ -38,11 +38,10 @@
     list-style: none;
     color: var(--color-for-body);
     transition: color var(--transition-duration-and-func);
-}
-
-.nav:hover,
-.nav:focus {
-    color: var(--accent-color);
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
 }
 
 .contacts-header {
@@ -56,29 +55,26 @@
     text-decoration: none;
     list-style: none;
     transition: var(--transition-duration-and-func);
-}
-
-.contacts-header:hover,
-.contacts-header:focus {
-    color: var(--accent-color);
+    &:hover,
+    &:focus {
+        color: var(--accent-color);
+    }
 }
 
 .contact-icone-mail {
     fill: currentColor;
+    .contacts-header:hover &,
+    .contacts-header:focus & {
+        color: var(--accent-color);
+    }
 }
 
 .contact-icone-phone {
     fill: currentColor;
-}
-
-.contacts-header:hover .contact-icone-mail,
-.contacts-header:focus .contact-icone-mail {
-    color: var(--accent-color);
-}
-
-.contacts-header:hover .contact-icone-phone,
-.contacts-header:focus .contact-icone-phone {
-    color: var(--accent-color);
+    .contacts-header:hover &,
+    .contacts-header:focus & {
+        color: var(--accent-color);
+    }
 }
 
 .contact-header-df {
@@ -107,12 +103,11 @@
     margin-right: 10px;
 }
 
-.menu-item:not(:last-child) {
-    margin-right: 50px;
-}
-
 .menu-item {
     position: relative;
+    &:not(:last-child) {
+        margin-right: 50px;
+    }
 }
 
 .index-after::after {

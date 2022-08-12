@@ -6,21 +6,19 @@
     height: 44px;
     border-radius: 50%;
     transition: var(--transition-duration-and-func);
-}
-
-.social-list-link:hover,
-.social-list-link:focus {
-    background-color: #2196F3;
-}
-
-.social-list-link:hover .social-list-icon,
-.social-list-link:focus .social-list-icon {
-    fill: #FFFFFF;
+    &:hover,
+    &:focus {
+        background-color: #2196F3;
+    }
 }
 
 .social-list-icon {
     width: 20px;
     height: 20px;
     fill: #AFB1B8;
+    .social-list-link:hover &,
+    .social-list-link:focus & {
+        fill: #FFFFFF;
+    }
 }
 
