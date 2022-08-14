@@ -12,7 +12,6 @@
         rel="stylesheet">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/main.min.css">
-
 </head>
 
 <body>
@@ -23,18 +22,18 @@
             <a class="logo" href="./index.html" lang="en">Web<span class="studio-header" lang="en">Studio</span></a>
         <!-- Navigation -->
             <ul class="list menu">
-                <li class="menu-item"> <a class="nav index-after" href="./index.html">Студія</a></li>
-                <li class="menu-item"> <a class="nav" href="./portfolio.html">Портфоліо</a></li>
-                <li class="menu-item"> <a class="nav" href="">Контакти</a></li>
+                <li class="menu__item"> <a class="nav index-after" href="./index.html">Студія</a></li>
+                <li class="menu__item"> <a class="nav" href="./portfolio.html">Портфоліо</a></li>
+                <li class="menu__item"> <a class="nav" href="">Контакти</a></li>
             </ul>
         </nav>
-        <ul class="list header-contacts-container">
-            <li class="contact-header-df">
-                <a class="contacts-header email" href="mailto:info@devstudio.com"><svg class="contact-icone-mail">
+        <ul class="list header-contacts">
+            <li class="header-contacts__container">
+                <a class="container__contacts-header email" href="mailto:info@devstudio.com"><svg class="container__icone-mail">
                     <use href="./images/svgimages/sprite.svg#mail"></use>
                 </svg>info@devstudio.com</a></li>
-            <li class="contact-header-df">
-                <a class="contacts-header" href="tel:+380961111111"><svg class="contact-icone-phone">
+            <li class="header-contacts__container">
+                <a class="container__contacts-header" href="tel:+380961111111"><svg class="container__icone-phone">
                     <use href="./images/svgimages/sprite.svg#phone"></use>
                 </svg>+38 096 111 11 11</a></li>
         </ul>
@@ -55,32 +54,32 @@
             <h2 class="hidden">опись</h2>
             <ul class="list company-characteristics">
                 <li class="features">
-                    <svg class="feature_svg">
+                    <svg class="features__svg">
                         <use href="./images/svgimages/sprite.svg#group_1"></use>
                     </svg>
-                    <h3 class="hidden-features">УВАГА ДО ДЕТАЛЕЙ</h3>
-                    <p class="paragraph-features">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
+                    <h3 class="features__heading">УВАГА ДО ДЕТАЛЕЙ</h3>
+                    <p class="features__paragraph">Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
                 </li>
                 <li class="features">
-                    <svg class="feature_svg">
+                    <svg class="features__svg">
                         <use href="./images/svgimages/sprite.svg#group_2"></use>
                     </svg>
-                    <h3 class="hidden-features">ПУНКТУАЛЬНІСТЬ</h3>
-                    <p class="paragraph-features">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
+                    <h3 class="features__heading">ПУНКТУАЛЬНІСТЬ</h3>
+                    <p class="features__paragraph">Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
                 </li>
                 <li class="features">
-                    <svg class="feature_svg">
+                    <svg class="features__svg">
                         <use href="./images/svgimages/sprite.svg#group_3"></use>
                     </svg>
-                    <h3 class="hidden-features">ПЛАНУВАННЯ</h3>
-                    <p class="paragraph-features">Так само консультація з широким активом значною мірою зумовлює.</p>
+                    <h3 class="features__heading">ПЛАНУВАННЯ</h3>
+                    <p class="features__paragraph">Так само консультація з широким активом значною мірою зумовлює.</p>
                 </li>
                 <li class="features">
-                    <svg class="feature_svg">
+                    <svg class="features__svg">
                         <use href="./images/svgimages/sprite.svg#group_4"></use>
                     </svg>
-                    <h3 class="hidden-features">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
-                    <p class="paragraph-features">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
+                    <h3 class="features__heading">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
+                    <p class="features__paragraph">Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
                 </li>
             </ul>
             </div>
@@ -88,21 +87,21 @@
 
         <section class="section">
             <div class="container">
-                <h2 class="banner">Чим ми займаємося</h2>
+                <h2 class="section__banner">Чим ми займаємося</h2>
             <ul class="list company-option">
-                <li class="foto-option"><img src="./images/services_sector/development.jpg" alt="Фото разработки продукта" width="370"
+                <li class="company-option__foto"><img src="./images/services_sector/development.jpg" alt="Фото разработки продукта" width="370"
                         height="294">
-                    <p class="option-text">
+                    <p class="company-option__text">
                         Десктопні додатки
                     </p></li>
-                <li class="foto-option"><img src="./images/services_sector/optimization.jpg" alt="Фото оптимизации продукта" width="370"
+                <li class="company-option__foto"><img src="./images/services_sector/optimization.jpg" alt="Фото оптимизации продукта" width="370"
                         height="294">
-                    <p class="option-text">
+                    <p class="company-option__text">
                         Мобільні додатки
                     </p></li>
-                <li class="foto-option"><img src="./images/services_sector/design.jpg" alt="Фото разработки дизайна продукта" width="370"
+                <li class="company-option__foto"><img src="./images/services_sector/design.jpg" alt="Фото разработки дизайна продукта" width="370"
                         height="294">
-                    <p class="option-text">
+                    <p class="company-option__text">
                         Дизайнерські рішення
                     </p></li>
             </ul>
@@ -111,7 +110,7 @@
 
         <section class="our-team section">
             <div class="container">
-            <h2 class="banner">Наша команда</h2>
+            <h2 class="section__banner">Наша команда</h2>
             <ul class="list team">
                 <li class="team-members">
                     <img class="foto-teams" src="./images/team/product_designer.jpg" alt="Фото дизайнера продукта" width="270"
@@ -270,7 +269,7 @@
         </section>
         <section class="section">
             <div class="container">
-                <h2 class="banner">Постійні клієнти</h2>
+                <h2 class="section__banner">Постійні клієнти</h2>
                 <ul class="list menu client-list">
                     <li>
                         <a href="" class="client-link">
@@ -326,15 +325,15 @@
                 <a class="logo" href="./index.html" lang="en">Web<span class="studio-footer">Studio</span></a>
                 <address>
                     <ul class="list contacts">
-                        <li class="find">
-                            <a class="addres" href="https://goo.gl/maps/r5BP94hAd7b6DZwo8" target="_blank"
+                        <li class="contacts__find">
+                            <a class="find__addres" href="https://goo.gl/maps/r5BP94hAd7b6DZwo8" target="_blank"
                                 rel="noopener noreferrer">м. Київ, пр-т Лесі Українки, 26</a>
                         </li>
-                        <li class="find">
-                            <a class="contacts-footer" href="mailto:info@example.com">info@example.com</a>
+                        <li class="contacts__find">
+                            <a class="find__contacts-footer-link" href="mailto:info@example.com">info@example.com</a>
                         </li>
-                        <li class="find">
-                            <a class="contacts-footer" href="tel:+380991111111">+38 099 111 11 11</a>
+                        <li class="contacts__find">
+                            <a class="find__contacts-footer-link" href="tel:+380991111111">+38 099 111 11 11</a>
                         </li>
                     </ul>
                 </address>

@@ -12,12 +12,12 @@
 
 }
 
-.feature_svg {
+.features__svg {
     width: 270px;
     height: 120px;
 }
 
-.hidden-features {
+.features__heading {
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -28,7 +28,7 @@
     margin-bottom: 10px;
 }
 
-.paragraph-features {
+.features__paragraph {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
